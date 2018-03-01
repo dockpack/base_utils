@@ -1,0 +1,15 @@
+---
+
+base_utils:
+  - bind-utils
+  - iotop
+  - iptraf
+  - lsof
+  - net-tools
+  - nmap
+  - psmisc
+  - sysstat
+  - tcpdump
+  - telnet
+  - traceroute
+  - wget

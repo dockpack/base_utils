@@ -1,0 +1,23 @@
+---
+# Standards: 0.2
+galaxy_info:
+  author: bbaassssiiee
+  description: Utilites for RedHat.
+  company: dockpack
+
+  license: MIT
+
+  min_ansible_version: 1.9.0
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - system
+    - rpm
+    - centos
+    - enterprise
+
+dependencies: []
