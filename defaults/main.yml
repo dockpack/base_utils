@@ -13,3 +13,4 @@ base_utils:
   - telnet
   - traceroute
   - wget
+  - git
