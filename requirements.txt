@@ -1,5 +1,5 @@
 # these python extensions are for testing
-six==1.11.0
+#six==1.11.0
 Jinja2==2.9.6
 pytest==3.3.2
 paramiko==2.1.2

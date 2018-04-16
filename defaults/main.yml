@@ -4,6 +4,7 @@ base_utils:
   - bind-utils
   - iotop
   - iptraf
+  - iftop
   - lsof
   - net-tools
   - nmap
