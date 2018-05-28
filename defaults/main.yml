@@ -3,6 +3,7 @@
 base_utils:
   - bind-utils
   - iotop
+  - htop
   - iptraf
   - lsof
   - net-tools
