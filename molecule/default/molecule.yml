@@ -10,10 +10,10 @@ lint:
 platforms:
   - name: base-utils-centos
     image: milcom/centos7-systemd
-    privileged: True
+    privileged: true
   - name: base-utils-ubuntu
     image: ubuntu
-    privileged: True
+    privileged: true
 provisioner:
   name: ansible
   config_options:
