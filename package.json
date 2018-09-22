@@ -5,6 +5,9 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "release-it": "^4.2.0"
+    "release-it": "^7.6.1"
+  },
+  "dependencies": {
+    "npm": "^6.4.1"
   }
 }

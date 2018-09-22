@@ -2,7 +2,6 @@
 
 base_utils:
   - nano
-  - bind-utils
   - iotop
   - iptraf
   - lsof
