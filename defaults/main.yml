@@ -4,7 +4,6 @@ base_utils:
   - nano
   - iotop
   - iptraf
-  - jq
   - lsof
   - net-tools
   - nmap
