@@ -2,10 +2,8 @@
 
 base_utils:
   - nano
-  - bind-utils
   - iotop
   - iptraf
-  - jq
   - lsof
   - net-tools
   - nmap
