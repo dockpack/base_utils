@@ -1,5 +1,4 @@
-![Build Status](https://api.travis-ci.org/dockpack/base_utils.svg)
-=========
+[![Galaxy](https://img.shields.io/badge/galaxy-dockpack.base__utils-blue.svg?style=flat)](https://galaxy.ansible.com/dockpack/base_utils)[![Build Status](https://api.travis-ci.org/dockpack/base_utils.svg)](https://travis-ci.org/dockpack/base_utils)
 
 **dockpack.base_utils** - These utilities are not present in the minimal install.
 
