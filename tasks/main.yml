@@ -4,4 +4,8 @@
   package:
     name: "{{ item }}"
     state: present
+  register: network_access
+  until: network_access is success
+  retries: 10
+  delay: 2
   with_items: "{{ base_utils }}"
