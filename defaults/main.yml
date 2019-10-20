@@ -4,7 +4,6 @@ base_utils:
   - git
   - iotop
   - iptraf
-  - jq
   - lsof
   - nano
   - net-tools
