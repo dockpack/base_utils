@@ -1,10 +1,12 @@
 ---
 
 base_utils:
-  - nano
+  - git
   - iotop
   - iptraf
+  - jq
   - lsof
+  - nano
   - net-tools
   - nmap
   - psmisc
@@ -13,4 +15,3 @@ base_utils:
   - telnet
   - traceroute
   - wget
-  - git
