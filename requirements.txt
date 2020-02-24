@@ -1,5 +1,5 @@
 # these python extensions are for testing
 tox
-molecule
+molecule==2.22
 docker
 
