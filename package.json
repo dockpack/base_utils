@@ -1,17 +1,13 @@
 {
   "name": "dockpack.base_utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
-    "release": "release-it",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "release": "release-it"
   },
   "devDependencies": {
     "release-it": "^7.6.1"
   },
   "dependencies": {
-    "npm": "^6.4.1",
-    "snyk": "^1.230.5"
-  },
-  "snyk": true
+    "npm": "^6.4.1"
+  }
 }
