@@ -3,6 +3,7 @@
 - name: install utils
   package:
     name: "{{ item }}"
+    update_cache: true
     state: present
   register: network_access
   until: network_access is success
