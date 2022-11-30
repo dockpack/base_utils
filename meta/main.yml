@@ -1,18 +1,21 @@
 ---
 # Standards: 0.2
 galaxy_info:
+  role_name: base_utils
+  namespace: dockpack
   author: bbaassssiiee
   description: Utilites for RedHat.
   company: dockpack
 
   license: MIT
 
-  min_ansible_version: 1.9.0
+  min_ansible_version: 2.9.0
 
   platforms:
     - name: EL
       versions:
         - 7
+        - 8
 
   galaxy_tags:
     - system

@@ -10,18 +10,33 @@ lint: |
   yamllint .
   ansible-lint
 platforms:
-  - name: base-utils-centos
-    image: milcom/centos7-systemd
-    privileged: true
+  - name: base-utils-centos8
+    image: quay.io/centos/centos:stream8
+    command: /sbin/init
+    tmpfs:
+      - /run
+      - /tmp
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+  - name: base-utils-centos7
+    image: centos:7.9.2009
+    command: /sbin/init
+    tmpfs:
+      - /run
+      - /tmp
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
   - name: base-utils-ubuntu
-    image: ubuntu
+    image: dokken/ubuntu-20.04
+    command: /lib/systemd/systemd
+    dockerfile: ../_shared/Dockerfile.j2
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
 provisioner:
   name: ansible
   config_options:
     defaults:
       remote_tmp: /tmp
-  playbooks:
-    converge: playbook.yml
-  lint:
-    name: ansible-lint
+verifier:
+  name: ansible
